@@ -1,3 +1,5 @@
+let slash = []
+
 module.exports = (client) => {
     readdirSync("./SlashCommands/").forEach(dir => {
         const commands = readdirSync(`./SlashCommands/${dir}/`).filter(file => file.endsWith(".js"));
