@@ -1,5 +1,11 @@
 let slash = []
+const { readdirSync } = require("fs");
+const ascii = require("ascii-table");
 
+//THIS ONE FROM V12
+
+// Create a new Ascii table
+let table = new ascii("Slash commands");
 module.exports = (client) => {
     readdirSync("./SlashCommands/").forEach(dir => {
         const commands = readdirSync(`./SlashCommands/${dir}/`).filter(file => file.endsWith(".js"));
