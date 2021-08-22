@@ -1,5 +1,8 @@
 {
-
     "prefix": "!",
-    "token": "YOUR BOT TOKEN"
+    "token": "NjQ0ODU0NjgwMTYxMDkxNTk1.Xc6FuA.gdBfJfQjUtO06okN1Wr_IGa5WjU",
+    "owner": [
+        ""
+    ],
+    "DB": "mongodb+srv://ESPORTS:OO11C6gUCF8b3Ikl@esportss.nl393.mongodb.net/paras?retryWrites=true&w=majority"
 }

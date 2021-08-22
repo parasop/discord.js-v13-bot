@@ -4,13 +4,28 @@
   "description": "DISCORD.JS V13 BY PARAS DOCS",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "ascii-table": "0.0.9",
+    "dayjs": "^1.10.6",
     "discord.js": "^13.0.0-dev.t1628208261.a56ba09",
-    "fs": "0.0.1-security"
-  }
+    "fs": "0.0.1-security",
+    "quickmongo": "^3.0.2"
+  },
+  "devDependencies": {
+    "node": "^16.6.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/parasop/discord.js-v13-bot.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/parasop/discord.js-v13-bot/issues"
+  },
+  "homepage": "https://github.com/parasop/discord.js-v13-bot#readme"
 }

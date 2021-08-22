@@ -2,6 +2,7 @@ module.exports = {
 
 
     name : "ping",
+pro : true,
     run : async (client,message,args)=> {
 
 

@@ -2,7 +2,7 @@ module.exports.run = async (client) => {
 
 
 
-console.log(`bot is ready`)
+console.log(`${client.user.username} is ready!`)
 
 
 }

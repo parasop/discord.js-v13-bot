@@ -33,6 +33,24 @@ if (!command) command = client.commands.get(client.aliases, get(cmd))
 if (!command) return
 
 
+if(command.pro){
+
+
+let guild = await client.db.get(`premium_${message.guild.id}`)
+
+
+
+if(!guild){
+
+
+
+
+    return message.channel.send(`this command only avalible for premium server`)
+
+
+}}
+
+
 
 
 if (command) command.run(client, message, args)

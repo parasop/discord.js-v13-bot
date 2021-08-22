@@ -13,8 +13,11 @@ const client = new discord.Client({
   intents: [
     "GUILDS","GUILD_BANS", "GUILD_VOICE_STATES", "GUILD_MESSAGES", "GUILD_MESSAGE_REACTIONS"],
 });
+const {Database}= require ("quickmongo")
+
 
 client.config = require("./config.json")
+client.db = new Database(client.config.DB)
 client.commands = new discord.Collection();
 client.aliases = new discord.Collection();
 client.slash = new discord.Collection();
